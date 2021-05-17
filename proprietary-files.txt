@@ -1,5 +1,8 @@
 # payton device proprietary files - from XT1900-1_PAYTON_FI_9.0_PPWS29.69-39-6-13, unless pinned
 
+# APNs
+product/etc/apns-conf.xml
+
 # Audio ACDB
 system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
 system/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
