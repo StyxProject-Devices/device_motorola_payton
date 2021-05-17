@@ -19,7 +19,7 @@ Front Camera | 8 MP (f/2.2, 1.12µm, no AF)
 
 **This tree has Moto Camera 2 & MotoLiveWallpaper3 included, for build do this:**
 
-`git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_denali.git -b eleven-arm64 packages/apps/MotCamera2`
+`git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_primary.git -b eleven-arm64 packages/apps/MotCamera2`
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b eleven packages/apps/MotCamera2-overlay`
 
