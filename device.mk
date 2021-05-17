@@ -53,6 +53,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotCamera2
 
+# Moto Live Wallpaper
+PRODUCT_PACKAGES += \
+    MotoLiveWallpaper3
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
