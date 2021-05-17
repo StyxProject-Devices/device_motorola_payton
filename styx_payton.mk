@@ -73,5 +73,6 @@ PRODUCT_RELEASE_NAME := payton
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=payton
+	PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210505.003 7255357 release-keys"
 
-BUILD_FINGERPRINT := motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
