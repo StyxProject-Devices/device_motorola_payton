@@ -25,8 +25,6 @@ Front Camera | 8 MP (f/2.2, 1.12µm, no AF)
 
 `git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp`
 
-`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_livewallpaper3.git -b eleven packages/apps/MotoLiveWallpaper3`
-
-**Now in Styx, TimeWeather & SignatureApp is there from source.**
+**Now in Styx, TimeWeather, SignatureApp & LiveWallpaper3 is there from source.**
 
 ![Motorola X4](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-x4-2.jpg "Motorola X4")
