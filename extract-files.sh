@@ -12,6 +12,12 @@ function blob_fixup() {
         vendor/lib/libzaf_core.so)
             sed -i -e 's|/system/etc/zaf|/vendor/etc/zaf|g' "${2}"
             ;;
+        # memset shim
+        vendor/bin/charge_only_mode)
+            for  LIBMEMSET_SHIM in $(grep -L "libmemset_shim.so" "${2}"); do
+                "${PATCHELF}" --add-needed "libmemset_shim.so" "$LIBMEMSET_SHIM"
+            done
+            ;;
         # Add uhid group for fingerprint service
         vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc)
             sed -i -e 's|system input|system uhid input|g' "${2}"
