@@ -26,4 +26,11 @@
     "target_path": "packages/apps/MotCamera2-overlay",
     "remote": "gitlab",
     "branch": "ten"
+  },
+  {
+    "repository": "NemesisDevelopers/motorola/packages_apps_MotoDolbyV3",
+    "target_path": "packages/apps/MotoDolbyV3",
+    "branch": "eleven",
+    "remote": "gitlab"
   }
+]
